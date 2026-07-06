@@ -1,0 +1,18 @@
+{
+    "id": 1,
+    "userId": 10,
+    "products": [
+        {
+            "productId": 5
+        },
+        {
+            "productId": 6
+        },
+        {
+            "productId": 7
+        },
+        {
+            "productId": 8
+        }
+    ]
+}
