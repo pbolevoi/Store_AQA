@@ -21,7 +21,7 @@ def test_auth(auth_api):
 @allure.title('Auth negative test')
 def test_auth_negative(auth_api):
     response = auth_api.get_auth_token_api('useruser', 'passpass123')
-    assert response.status_code == 403
+    assert response.status_code == 401
 
 
 @allure.epic('Продукт')
